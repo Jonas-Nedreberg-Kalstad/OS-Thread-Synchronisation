@@ -1,5 +1,8 @@
 # OS-Thread-Synchronisation
 
+To run the application simply run the main method in the main class.
+
+
 Observations from running application without synchronizing bookTicket method.
 
 ![image](https://user-images.githubusercontent.com/97608891/221267928-6efd6c0e-444f-48d8-a1e9-0c45d5703f13.png)
