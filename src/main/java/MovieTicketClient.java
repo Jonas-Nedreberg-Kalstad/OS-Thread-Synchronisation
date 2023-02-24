@@ -1,12 +1,16 @@
 
 public class MovieTicketClient extends Thread {
-  // TBD
+  private String customerName;
+  private int amountOfTickets;
+  private MovieTicketServer movieTicketServer;
 
-  public MovieTicketClient() {
-    // TBD
+  public MovieTicketClient(String customerName, int amountOfTickets, MovieTicketServer movieTicketServer) {
+    this.customerName = customerName;
+    this.amountOfTickets = amountOfTickets;
+    this.movieTicketServer = movieTicketServer;
   }
 
   public void run() {
-    // TBD
+      this.movieTicketServer.bookTicket(customerName, amountOfTickets);
   }
 }
