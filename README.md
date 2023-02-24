@@ -2,7 +2,7 @@
 
 To run the application simply run the main method in the main class.
 
-## Customers:
+#### Customers:
 - Xiangming is booking 3 tickets
 - Ilaria is booking 2 tickets
 - Sam is booking 3 tickets
